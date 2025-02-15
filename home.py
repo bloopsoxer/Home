@@ -1,6 +1,6 @@
 # Obrigado por usar o Home!
 
-# Crie dois arquivos TXT, "nome.txt", "senha.txt" e "logado.txt"
+# Crie três arquivos TXT, "nome.txt", "senha.txt" e "logado.txt"
 
 import requests
 from colorama import Fore, init
