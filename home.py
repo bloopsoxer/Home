@@ -11,6 +11,20 @@ from datetime import datetime
 import threading
 import random
 
+if not os.path.exists("senha.txt"):
+    with open("senha.txt", "w") as f:
+        f.write("")
+
+if not os.path.exists("nome.txt"):
+    with open("nome.txt", "w") as f:
+        f.write("")
+
+if not os.path.exists("logado.txt"):
+    with open("logado.txt", "w") as f:
+        f.write("NO")
+
+
+
 def TELA_INICIAL():
     print("Coisa so pro meu codigo dar certo...")
 
